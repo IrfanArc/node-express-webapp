@@ -13,7 +13,7 @@ app.use('/', function(req,res){
 });
 
 const server = http.createServer(app);
-const port = 2121;
+const port = 8080;
 server.listen(port);
 
 console.debug('Server listening on port ' + port);
